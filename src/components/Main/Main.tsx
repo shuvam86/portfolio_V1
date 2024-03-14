@@ -241,7 +241,7 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
-      {/* <Experience></Experience> */}
+      <Experience></Experience>
       <Project></Project>
       <Contact></Contact>
     </Container>

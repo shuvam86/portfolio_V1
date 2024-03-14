@@ -3,16 +3,13 @@ import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
-import telegram from '../../assets/telegram.svg'
-import instagramIcon from '../../assets/instagram.svg'
-// import discordIcon from '../../assets/discord.png'
 
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="#" className="logo">
-        <span>www.some</span>
-        <span>thing.in</span>
+      <a href="shuvam-gupta.netlify.app" className="logo">
+        <span>Portfolio</span>
+        {/* <span></span> */}
       </a>
       <div>
         <p>
