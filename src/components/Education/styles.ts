@@ -4,7 +4,6 @@ export const Container = styled.section`
   margin-top: 15rem;
 
   h2 {
-    text-align: center;
     font-size: 4rem;
     margin-bottom: 3rem;
   }

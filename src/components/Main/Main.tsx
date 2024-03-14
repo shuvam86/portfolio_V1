@@ -4,7 +4,8 @@ import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
-import { Experience } from "../Experience/Experience"
+import { Experience } from "../Experience/Experience";
+import { Education } from "../Education/Education";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
@@ -243,6 +244,7 @@ export function Main() {
       <About></About>
       <Experience></Experience>
       <Project></Project>
+      <Education></Education>
       <Contact></Contact>
     </Container>
   );

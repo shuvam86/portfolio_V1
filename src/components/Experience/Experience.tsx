@@ -13,12 +13,20 @@ export function Experience() {
             <header>
               <div className="project-links">
                 <div className="company-logo">
-                  <img src={offsetfarmLogo} alt="Visit site" />
+                  <img src={offsetfarmLogo} alt="OffsetFarm" />
                 </div>
+                
               </div>
             </header>
+            <h3>Full Stack Developer</h3>
+
+            <div className="company-head">
+            <h3>OffsetFarm </h3>
+              <div>April 2023 - Present</div>
+              </div>
+              
             <div className="body">
-              <h3>OffsetFarm</h3>
+              
               <p>
                 - Created the company's primary website from scratch using
                 Vue.js, delivering a 25% boost in user engagement with a
@@ -67,12 +75,16 @@ export function Experience() {
             <header>
               <div className="project-links">
                 <div className="company-logo">
-                  <img src={adpushupLogo} alt="Visit site" />
+                  <img src={adpushupLogo} alt="Adpushup" />
                 </div>
               </div>
             </header>
+            <h3>Full Stack Developer</h3>
+            <div className="company-head">
+            <h3>Adpushup Software India Pvt Ltd, New Delhi  </h3>
+              <div>December 2022 - March 2023</div>
+              </div>
             <div className="body">
-              <h3>Adpushup Software India Pvt Ltd</h3>
               <p>
                 - Improved ticket response tracking in HubSpot by updating the
                 effective days property calculation using JavaScript for better

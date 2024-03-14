@@ -14,8 +14,9 @@ export const Container = styled.header`
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 105.7vw;
   z-index: 1000;
+
 
   nav{
     display: flex;
@@ -23,7 +24,7 @@ export const Container = styled.header`
     gap: 1.8rem;
     a{
       color: #FFFF;
-      padding: 0.6rem;
+      padding: 0.3rem;
       font-family: 'Red Hat Display', sans-serif;
       font-weight: 500;
       text-transform: uppercase;
@@ -52,6 +53,7 @@ export const Container = styled.header`
     position: relative;
     cursor: pointer;
     display: none;
+
 
     &:before{
       bottom: 0.5rem;
