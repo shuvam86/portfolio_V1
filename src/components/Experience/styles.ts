@@ -10,7 +10,8 @@ export const Container = styled.section`
     margin-bottom: 3rem;
   }
   .projects{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 2rem;
@@ -18,6 +19,7 @@ export const Container = styled.section`
     overflow: hidden;
 
     .project{
+      width: 100%;
       padding: 2rem 1.8rem;
       background-color: #2b2b2b;
       border-radius: 1.2rem;
@@ -45,6 +47,10 @@ export const Container = styled.section`
         a > img {
           width: 5.0rem;
         }
+      }
+
+      img {
+        height: 50px;
       }
       
       h3{
