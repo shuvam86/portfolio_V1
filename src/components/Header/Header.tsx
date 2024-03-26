@@ -47,7 +47,7 @@ export function Header() {
           </NavHashLink>
           
           <a
-            href="https://drive.google.com/file/d/1g-TKkAjV2UTEagO_YqCNRUHi1byAyTwv/view?usp=sharing"
+            href="https://shorturl.at/oqvQS"
             target="_blank"
             rel="noopener noreferrer"
             className="button"

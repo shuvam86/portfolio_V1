@@ -7,7 +7,7 @@ import whatsapp from '../../assets/whatsapp.svg'
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="shuvam-gupta.netlify.app" className="logo">
+      <a href="" className="logo">
         <span>Portfolio</span>
         {/* <span></span> */}
       </a>
