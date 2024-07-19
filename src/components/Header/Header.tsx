@@ -47,7 +47,7 @@ export function Header() {
           </NavHashLink>
           
           <a
-            href="https://shorturl.at/oqvQS"
+            href="https://bit.ly/3zQqL4H"
             target="_blank"
             rel="noopener noreferrer"
             className="button"
