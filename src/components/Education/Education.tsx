@@ -12,7 +12,7 @@ export function Education() {
             <header>
               <div className="project-links">
                 <div className="company-logo">
-                  <img src={kietLogo} alt="OffsetFarm" />
+                  <img src={kietLogo} alt="KIET" />
                 </div>
                 
               </div>

@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 import adpushupLogo from "../../assets/adpushup.png";
-import offsetfarmLogo from "../../assets/offsetfarm.png";
+import merisolutionLogo from "../../assets/msLogo.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function Experience() {
@@ -8,55 +8,57 @@ export function Experience() {
     <Container id="experience">
       <h2>Experience</h2>
       <div className="projects">
-      <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <div className="project-links">
                 <div className="company-logo">
-                  <img src={offsetfarmLogo} alt="OffsetFarm" />
+                  <img src={merisolutionLogo} alt="Merisolution" />
                 </div>
-                
               </div>
             </header>
             <h3>Full Stack Developer</h3>
 
             <div className="company-head">
-            <h3>OffsetFarm </h3>
-              <div>June 2023 - July 2024</div>
-              </div>
-              
+              <h3>Merisolution </h3>
+              {/* <div>June 2023 - July 2024</div> */}
+            </div>
+
             <div className="body">
-              
               <p>
-                - Created the company's primary website from scratch using
-                Vue.js, delivering a 25% boost in user engagement with a
+                - Designed and developed the company's primary website from
+                scratch, delivering a 25% boost in user engagement with a
                 responsive and visually appealing user interface
               </p>
               <p>
                 - Integrated data filtering functionality, including a reset
-                filter option using Vue.js, enabling users to filter multiple
-                columns simultaneously enhancing data analysis capabilities by
-                20%
+                filter option, enabling users to filter multiple columns
+                simultaneously
               </p>
               <p>
-                - Enabled the integration of new products into the system and
-                provided a user-friendly interface for project management
-                leading to 20% reduction in time using Node.js
+                - Implemented a feature for Magicfares to dynamically fetch and
+                display flight details, including available flights, fares, and
+                timings, based on user search queries
               </p>
               <p>
-                - Optimized order management system by enabling real-time stock
-                checks, automatic ordering and efficient dispatch management,
-                using Node.js achieving a 50% improvement in efficiency
+                - Utilized Chart.js to generate various charts and reports for
+                in-depth analysis, enhancing data visualization and aiding in
+                strategic decision- making
               </p>
               <p>
-                - Implemented data visualization functionality utilizing
-                Chart.js to generate diverse graphs, leading to the creation of
-                multiple graphical representations
+                - Enabled seamless integration of new products into the system
+                while architecting a user-friendly interface for project
+                management, resulting in a 20% reduction in operational time
               </p>
               <p>
-                - Executed a rebranding initiative using React.js, transforming
-                product aesthetics to align seamlessly with the company's
-                updated brand identity
+                - Implemented a translation feature in the application using the
+                Google translation API, allowing statements to be displayed in
+                multiple languages, enhancing accessibility and user experience
+                for a diverse audience
+              </p>
+              <p>
+                Contributed to launching a mobile application with React Native,
+                streamlining user accessibility
               </p>
             </div>
             <footer>
@@ -81,9 +83,9 @@ export function Experience() {
             </header>
             <h3>Full Stack Developer</h3>
             <div className="company-head">
-            <h3>Adpushup Software India Pvt Ltd, New Delhi  </h3>
-              <div> Jan 2023 - April 2023</div>
-              </div>
+              <h3>Adpushup Software India Pvt Ltd, New Delhi </h3>
+              {/* <div> Jan 2023 - April 2023</div> */}
+            </div>
             <div className="body">
               <p>
                 - Improved ticket response tracking in HubSpot by updating the
@@ -120,8 +122,6 @@ export function Experience() {
             </footer>
           </div>
         </ScrollAnimation>
-
-       
       </div>
     </Container>
   );
