@@ -25,8 +25,8 @@ export function Header() {
           id="switch"
           name="mode"
         />
-        <label htmlFor="switch">Toggle</label>
-        <nav className={isActive ? "active" : ""}>
+        <label htmlFor="switch" style={{marginRight:'1rem'}}>Toggle</label>
+        <nav className={isActive ? "active" : "" }>
           <NavHashLink smooth to="#home" onClick={closeMenu}>
             Home
           </NavHashLink>
@@ -42,7 +42,7 @@ export function Header() {
           <NavHashLink smooth to="#education" onClick={closeMenu}>
             Education
           </NavHashLink>
-          <NavHashLink smooth to="#contact" onClick={closeMenu}>
+          <NavHashLink smooth to="#contact" onClick={closeMenu} style={{marginRight:'2rem'}}>
             Contact
           </NavHashLink>
           

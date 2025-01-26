@@ -2,12 +2,50 @@ import { Container } from "./styles";
 import adpushupLogo from "../../assets/adpushup.png";
 import merisolutionLogo from "../../assets/msLogo.png";
 import ScrollAnimation from "react-animate-on-scroll";
+import cognitensorlogo from "../../assets/cognitensor_logo.jpg"
 
 export function Experience() {
   return (
     <Container id="experience">
       <h2>Experience</h2>
       <div className="projects">
+      <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <div className="project-links">
+                <div className="company-logo">
+                  <img src={cognitensorlogo} alt="CogniTensor" />
+                </div>
+              </div>
+            </header>
+            <h3>Full Stack Developer</h3>
+
+            <div className="company-head">
+              <h3>CogniTensor </h3>
+              <div>Oct 2024 - Present</div>
+            </div>
+
+            <div className="body">
+              
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Nest.js</li>
+                <li>Fastify</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>MySQL</li>
+                <li>Typescript</li>
+                <li>Microsoft Graph API</li>
+                <li>Syncfusion</li>
+                <li>Chart.js</li>
+                <li>Pug.js</li>
+                <li>EmailJS</li>
+                <li>FullCalendar</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -17,15 +55,15 @@ export function Experience() {
                 </div>
               </div>
             </header>
-            <h3>Full Stack Developer</h3>
+            <h3>Frontend Developer</h3>
 
             <div className="company-head">
               <h3>Merisolution </h3>
-              {/* <div>June 2023 - July 2024</div> */}
+              <div>June 2023 - July 2024</div>
             </div>
 
             <div className="body">
-              <p>
+              {/* <p>
                 - Designed and developed the company's primary website from
                 scratch, delivering a 25% boost in user engagement with a
                 responsive and visually appealing user interface
@@ -59,15 +97,15 @@ export function Experience() {
               <p>
                 Contributed to launching a mobile application with React Native,
                 streamlining user accessibility
-              </p>
+              </p> */}
             </div>
             <footer>
               <ul className="tech-list">
                 <li>JavaScript</li>
-                <li>Vue.js</li>
                 <li>React.js</li>
                 <li>Node.js</li>
-                <li>Chart.js </li>
+                <li>Express</li>
+                <li>MongoDB </li>
               </ul>
             </footer>
           </div>
@@ -84,10 +122,10 @@ export function Experience() {
             <h3>Full Stack Developer</h3>
             <div className="company-head">
               <h3>Adpushup Software India Pvt Ltd, New Delhi </h3>
-              {/* <div> Jan 2023 - April 2023</div> */}
+              <div> Jan 2023 - April 2023</div>
             </div>
             <div className="body">
-              <p>
+              {/* <p>
                 - Improved ticket response tracking in HubSpot by updating the
                 effective days property calculation using JavaScript for better
                 understanding of response time, and improving the customer
@@ -106,13 +144,12 @@ export function Experience() {
               <p>
                 - Automated email consolidation for publishers using Google Apps
                 Script, enhancing data tracking accuracy by 40%
-              </p>
+              </p> */}
             </div>
             <footer>
               <ul className="tech-list">
                 <li>JavaScript</li>
-                <li>Vue.js</li>
-                <li>React</li>
+                <li>React.js</li>
                 <li>Node.js</li>
                 <li>Google Apps Script</li>
                 <li>Zapier</li>
