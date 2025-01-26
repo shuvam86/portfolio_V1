@@ -16,6 +16,8 @@ import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import mongodbIcon from "../../assets/mongodb-icon.svg";
 import stripeIcon from "../../assets/stripe-icon.png";
 import hubspotIcon from "../../assets/hubspot-logo.webp";
+import typescriptLogo from "../../assets/typescript.png";
+import nestjsLogo from "../../assets/nest.svg";
 
 export function Main() {
   return (
@@ -191,6 +193,16 @@ export function Main() {
                 },
                 {
                   src: hubspotIcon,
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: typescriptLogo,
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: nestjsLogo,
                   width: 20,
                   height: 20,
                 },
